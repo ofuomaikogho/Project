@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7FD29F04-AEB7-4EED-86A6-2DF23C5E021D}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ProfitPlusWeb</RootNamespace>
+    <AssemblyName>ProfitPlusWeb</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\layout.css" />
+    <Content Include="css\reset.css" />
+    <Content Include="css\responsive.css" />
+    <Content Include="css\responsiveslides.css" />
+    <Content Include="css\style.css" />
+    <Content Include="css\zerogrid.css" />
+    <Content Include="Dashboard\Dashboard1.aspx" />
+    <Content Include="images\basic.jpg" />
+    <Content Include="images\bg - Copy.jpg" />
+    <Content Include="images\bg-tile.png" />
+    <Content Include="images\bg1.jpg" />
+    <Content Include="images\bg2.jpg" />
+    <Content Include="images\bg_slider.gif" />
+    <Content Include="images\bg_testimonials.gif" />
+    <Content Include="images\bg_top2.gif" />
+    <Content Include="images\bg_top_img.jpg" />
+    <Content Include="images\bronze.jpg" />
+    <Content Include="images\buttons.png" />
+    <Content Include="images\digits-min.png" />
+    <Content Include="images\digits.png" />
+    <Content Include="images\download %281%29.png" />
+    <Content Include="images\download.png" />
+    <Content Include="images\dropcap1.gif" />
+    <Content Include="images\finger.gif" />
+    <Content Include="images\gold.jpg" />
+    <Content Include="images\icon1.jpg" />
+    <Content Include="images\icon2.jpg" />
+    <Content Include="images\icon3.jpg" />
+    <Content Include="images\icon4.jpg" />
+    <Content Include="images\images %283%29.jpg" />
+    <Content Include="images\img1.jpg" />
+    <Content Include="images\img2.jpg" />
+    <Content Include="images\img3.jpg" />
+    <Content Include="images\img4.jpg" />
+    <Content Include="images\line_hor1.png" />
+    <Content Include="images\logo.jpg" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\logo1.png" />
+    <Content Include="images\marker_1.gif" />
+    <Content Include="images\marker_down.gif" />
+    <Content Include="images\marker_up.gif" />
+    <Content Include="images\menu_icon1.gif" />
+    <Content Include="images\menu_icon1_active.gif" />
+    <Content Include="images\menu_icon2.gif" />
+    <Content Include="images\menu_icon2_active.gif" />
+    <Content Include="images\menu_icon3.gif" />
+    <Content Include="images\menu_icon3_active.gif" />
+    <Content Include="images\menu_icon4.gif" />
+    <Content Include="images\menu_icon4_active.gif" />
+    <Content Include="images\menu_icon5.gif" />
+    <Content Include="images\menu_icon5_active.gif" />
+    <Content Include="images\noimage.gif" />
+    <Content Include="images\noimage.jpg" />
+    <Content Include="images\page1_img1.jpg" />
+    <Content Include="images\page2_img1.jpg" />
+    <Content Include="images\page2_img2.jpg" />
+    <Content Include="images\page2_img3.jpg" />
+    <Content Include="images\page3_img1.gif" />
+    <Content Include="images\page3_img2.gif" />
+    <Content Include="images\page3_img3.gif" />
+    <Content Include="images\page3_img4.gif" />
+    <Content Include="images\page3_img5.gif" />
+    <Content Include="images\page3_img6.gif" />
+    <Content Include="images\page4_img1.jpg" />
+    <Content Include="images\page4_img2.jpg" />
+    <Content Include="images\page4_img3.jpg" />
+    <Content Include="images\page4_img4.jpg" />
+    <Content Include="images\page4_img5.jpg" />
+    <Content Include="images\page4_img6.jpg" />
+    <Content Include="images\relief.jpg" />
+    <Content Include="images\silver.jpg" />
+    <Content Include="images\starter.jpg" />
+    <Content Include="images\themes.gif" />
+    <Content Include="images\time-placeholder.png" />
+    <Content Include="index.html" />
+    <Content Include="js\css3-mediaqueries.js" />
+    <Content Include="js\cufon-replace.js" />
+    <Content Include="js\cufon-yui.js" />
+    <Content Include="js\html5.js" />
+    <Content Include="js\jcarousellite.js" />
+    <Content Include="js\jquery-1.6.js" />
+    <Content Include="js\jquery.countdown.js" />
+    <Content Include="js\jquery.countdown.min.js" />
+    <Content Include="js\jquery.easing.1.3.js" />
+    <Content Include="js\jquery.plugin.min.js" />
+    <Content Include="js\PIE.htc" />
+    <Content Include="js\responsiveslides.js" />
+    <Content Include="js\script.js" />
+    <Content Include="js\Swis721_Cn_BT_400.font.js" />
+    <Content Include="js\Swis721_Cn_BT_700.font.js" />
+    <Content Include="js\tabs.js" />
+    <Content Include="js\tms-0.3.js" />
+    <Content Include="js\tms_presets.js" />
+    <Content Include="News.html" />
+    <Content Include="Packages.html" />
+    <Content Include="ProfitPlus.aspx" />
+    <Content Include="profitplusicon.png" />
+    <Content Include="Reguser.aspx" />
+    <Content Include="Testimonials.html" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Dashboard\Dashboard1.aspx.cs">
+      <DependentUpon>Dashboard1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dashboard\Dashboard1.aspx.designer.cs">
+      <DependentUpon>Dashboard1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccess.cs" />
+    <Compile Include="Details.cs" />
+    <Compile Include="GhProcess.cs" />
+    <Compile Include="Payments.cs" />
+    <Compile Include="PhProcess.cs" />
+    <Compile Include="ProfitPlus.aspx.cs">
+      <DependentUpon>ProfitPlus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProfitPlus.aspx.designer.cs">
+      <DependentUpon>ProfitPlus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reguser.aspx.cs">
+      <DependentUpon>Reguser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reguser.aspx.designer.cs">
+      <DependentUpon>Reguser.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="js\PIE.php" />
+    <None Include="Properties\PublishProfiles\profitplus.pubxml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:15291/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

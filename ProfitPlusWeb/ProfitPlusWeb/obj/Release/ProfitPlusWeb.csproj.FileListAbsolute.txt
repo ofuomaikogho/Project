@@ -1,0 +1,5 @@
+C:\Users\PHED-IT\documents\visual studio 2012\Projects\ProfitPlusWeb\ProfitPlusWeb\bin\ProfitPlusWeb.dll
+C:\Users\PHED-IT\documents\visual studio 2012\Projects\ProfitPlusWeb\ProfitPlusWeb\bin\ProfitPlusWeb.pdb
+C:\Users\PHED-IT\documents\visual studio 2012\Projects\ProfitPlusWeb\ProfitPlusWeb\obj\Release\ProfitPlusWeb.dll
+C:\Users\PHED-IT\documents\visual studio 2012\Projects\ProfitPlusWeb\ProfitPlusWeb\obj\Release\ProfitPlusWeb.pdb
+C:\Users\PHED-IT\documents\visual studio 2012\Projects\ProfitPlusWeb\ProfitPlusWeb\obj\Release\ProfitPlusWeb.csprojResolveAssemblyReference.cache
